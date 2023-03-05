@@ -16,8 +16,13 @@ function TodoForm (){
 
     const onSubmit = (event)=>{
         event.preventDefault();
-        addTodos(todoValue);
-        setOpenModal(false);
+        if(todoValue != null && todoValue != "" ){
+            addTodos(todoValue);
+            setOpenModal(false);
+        }else{
+            alert("No puede agregar tarea sin descripcion")
+        }
+        
     }
    
 
@@ -25,7 +30,7 @@ function TodoForm (){
     return (
         <form onSubmit={onSubmit}>
          <label>ESCRIBE TU NUEVA TAREA</label>
-         <textarea placeholder="COMPRAR COMIDA" value={todoValue} onChange={onChange}/> 
+         <textarea placeholder="Descripcion de la tarea nueva" value={todoValue} onChange={onChange}/> 
 
 
          <div className="TodoForm-buttonContainer">

@@ -9,7 +9,7 @@ function CreateTodoItem(props) {
     props.setOpenModal(prevState=>!prevState)
   }
 
-  return <button onClick={click} className="CreateTodoButton">+</button>;
+  return <button onClick={click} className={`CreateTodoButton ${props.openModal && "CreateTodoButtonRotate"}`}  >+</button>;
 }
 
 export { CreateTodoItem };
