@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Gabrielyarbi/todoMachine/static/css/main.e1770dd5.css",
-    "main.js": "/Gabrielyarbi/todoMachine/static/js/main.0078920d.js",
-    "index.html": "/Gabrielyarbi/todoMachine/index.html",
-    "main.e1770dd5.css.map": "/Gabrielyarbi/todoMachine/static/css/main.e1770dd5.css.map",
-    "main.0078920d.js.map": "/Gabrielyarbi/todoMachine/static/js/main.0078920d.js.map"
+    "main.css": "/todoMachine/static/css/main.e1770dd5.css",
+    "main.js": "/todoMachine/static/js/main.0078920d.js",
+    "index.html": "/todoMachine/index.html",
+    "main.e1770dd5.css.map": "/todoMachine/static/css/main.e1770dd5.css.map",
+    "main.0078920d.js.map": "/todoMachine/static/js/main.0078920d.js.map"
   },
   "entrypoints": [
     "static/css/main.e1770dd5.css",
